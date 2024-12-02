@@ -21,7 +21,7 @@ public class UpdateProductUseCaseImpl implements UpdateProductUseCase {
 
         product.setId(persistedProduct.getId());
 
-        return productRepository.save(product);
+        return productRepository.update(product);
     }
 
 }
