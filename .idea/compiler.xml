@@ -34,6 +34,11 @@
         <module name="tech_gerenciamento-pedido" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="produto" target="21" />
+      <module name="tech-logistic" target="21" />
+      <module name="tech-orders" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
