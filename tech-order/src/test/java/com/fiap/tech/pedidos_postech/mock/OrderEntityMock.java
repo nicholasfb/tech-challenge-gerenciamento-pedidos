@@ -5,13 +5,13 @@ import com.fiap.tech.pedidos_postech.repository.model.ItemEntity;
 import com.fiap.tech.pedidos_postech.repository.model.OrderEntity;
 
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 public class OrderEntityMock {
 
     public static OrderEntity create() {
-        final List<ItemEntity> items = new ArrayList<>();
+        final Set<ItemEntity> items = new HashSet<>();
 
         items.add(ItemEntity.builder()
                           .productId(1L)
