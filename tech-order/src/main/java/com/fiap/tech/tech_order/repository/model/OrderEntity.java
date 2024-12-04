@@ -33,7 +33,7 @@ public class OrderEntity {
 
     private Long clientId;
 
-    @OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.MERGE,
+    @OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL,
                orphanRemoval = true)
     private Set<ItemEntity> items;
 
