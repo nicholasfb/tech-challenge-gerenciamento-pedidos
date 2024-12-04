@@ -3,6 +3,7 @@ package com.fiap.tech.tech_logistic.repository.repository;
 import com.fiap.tech.tech_logistic.core.exception.NotFoundException;
 import com.fiap.tech.tech_logistic.core.repository.DeliveryRepository;
 import com.fiap.tech.tech_logistic.domain.delivery.Delivery;
+import com.fiap.tech.tech_logistic.domain.delivery.status.Status;
 import com.fiap.tech.tech_logistic.repository.adapter.DeliveryAdapter;
 import com.fiap.tech.tech_logistic.repository.jpa.DeliveryJpaRepository;
 import lombok.RequiredArgsConstructor;
@@ -62,7 +63,7 @@ public class DeliveryRepositoryImpl implements DeliveryRepository {
 
     @Override
     public Set<Delivery> findWaitingDeliveries() {
-        return deliveryJpaRepository.findByDriverIdIsNull().stream()
+        return deliveryJpaRepository.findByStatus(Status.WAITING_DRIVER).stream()
                 .map(deliveryAdapter::fromEntity)
                 .collect(Collectors.toSet());
     }

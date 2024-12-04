@@ -77,7 +77,6 @@ public class OrderBusinessImpl implements OrderBusiness {
 
         persistedOrder.setStatus(Status.CANCELLED);
 
-        productQueueProducer.publish(persistedOrder, true);
         logisticQueueProducer.publish(persistedOrder, true);
 
         return orderRepository.update(persistedOrder);
