@@ -24,7 +24,7 @@ Microsserviços desenvolvidos para o projeto:
 
 **Simple Queue Service:** Utilização para mensageria das filas
 
-LocalStack para a utilização do SQS
+**LocalStack:** para a utilização do SQS
 
 
 ## Inicializando localmente a API
