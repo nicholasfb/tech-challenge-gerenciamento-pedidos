@@ -7,7 +7,7 @@ Tech Challenge Gerenciador de sistema de pedidos utilizando microsserviços e me
 ## Microsserviços
 Microsserviços desenvolvidos para o projeto:
 * [Cliente](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/tech-client)
-* [Produto](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/produto)
+* [Produto](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/tech-product)
 * [Pedido](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/tech-order)
 * [Logística](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/tech-logistic)
 
