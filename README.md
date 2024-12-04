@@ -28,6 +28,9 @@ LocalStack para a utilização do SQS
 
 
 ## Inicializando localmente a API
+Para fazer requisições a API é necessário o uso de algum software que tenha essa funcionalidade ( Postman, Insomnia, Apidog, ...) ou pode utilizar o terminal para rodar comandos cURL.
+
+Caso utilize o postman, pode importar a collection que está no package .\postman
 
 ### Docker
 
@@ -50,4 +53,4 @@ Acesse a documentação completa do projeto:
 
 ## Demonstrativo
 Para acessar o vídeo demonstrativo do projeto acesse
-[Vídeo do projeto](https://drive.google.com/file/d/1I2tuJL-Auw-jN-d7nUMQIPXaq6roETY_/view)
+[Vídeo do projeto](https://drive.google.com/file/d/1RzdakzGO7Y4fp2VDOO82p_CkYiH4Ndti/view)
