@@ -38,7 +38,7 @@ O docker compose, arquivo responsável por configurar os containers, está no pa
 portanto pode rodar através da sua IDE diretamente ou pelo comando `docker-compose up` diretamente
 na pasta do arquivo docker-compose.yml
 
-##Utilizando a API
+## Utilizando a API
 
 Para fazer requisições a API é necessário o uso de algum software que tenha essa funcionalidade ( Postman, Insomnia, Apidog, ...) ou pode utilizar o terminal para rodar comandos cURL.
 
