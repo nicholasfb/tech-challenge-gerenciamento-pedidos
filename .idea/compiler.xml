@@ -3,7 +3,7 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Annotation profile for restaurante" enabled="true">
+      <profile name="Annotation profile for tech-client" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -17,9 +17,9 @@
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
         </processorPath>
-        <module name="tech-orders" />
+        <module name="tech-client" />
       </profile>
-      <profile name="Annotation profile for tech_gerenciamento-pedido" enabled="true">
+      <profile name="Annotation profile for tech-product" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -29,23 +29,18 @@
           <entry name="$MAVEN_REPOSITORY$/org/mapstruct/mapstruct/1.5.5.Final/mapstruct-1.5.5.Final.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok-mapstruct-binding/0.2.0/lombok-mapstruct-binding-0.2.0.jar" />
         </processorPath>
+        <module name="tech-order" />
         <module name="tech-logistic" />
-        <module name="produto" />
-        <module name="tech_gerenciamento-pedido" />
+        <module name="tech-product" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="produto" target="21" />
-      <module name="tech-logistic" target="21" />
-      <module name="tech-orders" target="21" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="produto" options="-parameters" />
+      <module name="tech-client" options="-parameters" />
       <module name="tech-logistic" options="-parameters" />
-      <module name="tech-orders" options="-parameters" />
-      <module name="tech_gerenciamento-pedido" options="-parameters" />
+      <module name="tech-order" options="-parameters" />
+      <module name="tech-product" options="-parameters" />
     </option>
   </component>
 </project>

@@ -12,8 +12,8 @@
     <groupId>com.fiap.tech</groupId>
     <artifactId>tech-logistic</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>restaurante</name>
-    <description>Projeto de restaurante para o Pós Tech</description>
+    <name>tech-logistic</name>
+    <description>Projeto para o Pós Tech</description>
     <url/>
     <licenses>
         <license/>

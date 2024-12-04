@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/crud-msproduto-tech-challenge-master/produto/pom.xml" />
         <option value="$PROJECT_DIR$/produto/pom.xml" />
         <option value="$PROJECT_DIR$/tech_gerenciamento-pedido-develop/pom.xml" />
+        <option value="$PROJECT_DIR$/tech-client/pom.xml" />
+        <option value="$PROJECT_DIR$/tech-logistic/pom.xml" />
+        <option value="$PROJECT_DIR$/tech-order/pom.xml" />
+        <option value="$PROJECT_DIR$/tech-product/pom.xml" />
       </list>
     </option>
   </component>

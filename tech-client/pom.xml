@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.postech</groupId>
-	<artifactId>tech-client</artifactId>
+	<artifactId>tech_client</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>tech_gerenciamento-pedido</name>
-	<description>Sistema de Gerenciamento de Pedidos  Integrado com Spring e Microsserviços</description>
+	<name>tech-client</name>
+	<description>Projeto para o Pós Tech</description>
 	<url/>
 	<licenses>
 		<license/>
