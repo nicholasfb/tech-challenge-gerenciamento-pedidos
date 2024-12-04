@@ -50,5 +50,4 @@ Acesse a documentação completa do projeto:
 
 ## Demonstrativo
 Para acessar o vídeo demonstrativo do projeto acesse
-https://drive.google.com/file/d/1I2tuJL-Auw-jN-d7nUMQIPXaq6roETY_/view
 [Vídeo do projeto](https://drive.google.com/file/d/1I2tuJL-Auw-jN-d7nUMQIPXaq6roETY_/view)
