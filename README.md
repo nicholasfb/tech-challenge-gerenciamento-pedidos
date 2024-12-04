@@ -1,26 +1,29 @@
 
 # PÓS TECH
 
-Tech Challenge Gerenciador de sistema de pedidos utilizando microserviços e mensageria
+Tech Challenge Gerenciador de sistema de pedidos utilizando microsserviços e mensageria
 
 
-## Microserviços
-Microserviços desenvolvidos para o projeto:
+## Microsserviços
+Microsserviços desenvolvidos para o projeto:
 * [Cliente](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/tech-client)
 * [Produto](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/produto)
 * [Pedido](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/tech-order)
 * [Logística](https://github.com/nicholasfb/tech-challenge-gerenciamento-pedidos/tree/master/tech-logistic)
 
 
-## Tech Stack
+## Tecnologias
 
-**Spring Boot:** para a criação e estrutura dos microserviços
+**Spring Boot:** para a criação e estrutura dos microsserviços
 
 **Spring Cloud Stream:** para facilitar a integração com a mensageria SQS
 
 **Spring Batch:** para processamento em lote
 
 **Docker:** para a criação dos containers do banco dados (PostgreSQL) e 
+
+**Simple Queue Service:** Utilização para mensageria das filas
+
 LocalStack para a utilização do SQS
 
 
@@ -42,3 +45,10 @@ na pasta do arquivo docker-compose.yml
 ## Documentação
 Acesse a documentação completa do projeto:
 [Documentação do projeto](https://drive.google.com/file/d/1gA8kQYpnAkf1ooQS1cdGT4ysTPxhULWF/view?usp=drive_link)
+
+
+
+## Demonstrativo
+Para acessar o vídeo demonstrativo do projeto acesse
+https://drive.google.com/file/d/1I2tuJL-Auw-jN-d7nUMQIPXaq6roETY_/view
+[Vídeo do projeto](https://drive.google.com/file/d/1I2tuJL-Auw-jN-d7nUMQIPXaq6roETY_/view)
