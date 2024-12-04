@@ -26,6 +26,8 @@ Microsserviços desenvolvidos para o projeto:
 
 
 ## Inicializando localmente a API
+
+### Utilizando a API
 Para fazer requisições a API é necessário o uso de algum software que tenha essa funcionalidade ( Postman, Insomnia, Apidog, ...) ou pode utilizar o terminal para rodar comandos cURL.
 
 Caso utilize o postman, pode importar a collection que está no package .\postman
