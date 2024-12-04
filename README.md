@@ -20,11 +20,9 @@ Microsserviços desenvolvidos para o projeto:
 
 **Spring Batch:** para processamento em lote
 
-**Docker:** para a criação dos containers do banco dados (PostgreSQL) e 
+**Docker:** para a criação dos containers do banco dados (PostgreSQL) e LocalStack para a utilização do SQS 
 
 **Simple Queue Service:** Utilização para mensageria das filas
-
-**LocalStack:** para a utilização do SQS
 
 
 ## Inicializando localmente a API
