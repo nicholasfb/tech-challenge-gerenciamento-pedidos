@@ -47,7 +47,7 @@ na pasta do arquivo docker-compose.yml
 
 ## Documentação
 Acesse a documentação completa do projeto:
-[Documentação do projeto](https://drive.google.com/file/d/1gA8kQYpnAkf1ooQS1cdGT4ysTPxhULWF/view?usp=drive_link)
+[Documentação do projeto](https://drive.google.com/file/d/1I2tuJL-Auw-jN-d7nUMQIPXaq6roETY_/view)
 
 
 
